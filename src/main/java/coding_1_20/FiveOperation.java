@@ -1,9 +1,9 @@
-package coding_1_50;
+package coding_1_20;
 
-/** ±âº» ¿¬»ê°ú Ãâ·Â(print, printf)
+/** ï¿½âº» ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½(print, printf)
  * 
- * ¿¬»ê °á°ú¸¦ print¿Í printf¸¦ »ç¿ëÇÏ¿© Ãâ·ÂÇÏÀÚ.
- * print´Â Ãâ·ÂÇÒ ¶§ +¸¦ »ç¿ëÇÏ°í, printf´Â %¿Í ,¸¦ ÀÌ¿ëÇÑ´Ù
+ * ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ printï¿½ï¿½ printfï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+ * printï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ +ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï°ï¿½, printfï¿½ï¿½ %ï¿½ï¿½ ,ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½Ñ´ï¿½
  * @author Administrator
  *
  */
@@ -20,8 +20,8 @@ public class FiveOperation {
 		int iResultA = ia + ib;  //30
 		int iResultB = ia - ib;  //-10
 		int iResultC = ia * ib;  //200
-		int iResultD = ia / ib;  // ¸ò: 0
-		int iResultE = ia % ib;  //³ª¸ÓÁö: 10 
+		int iResultD = ia / ib;  // ï¿½ï¿½: 0
+		int iResultE = ia % ib;  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 10 
 		
 		System.out.println("1 : " + iResultA);
 		System.out.println("2 : " + iResultB);
@@ -38,7 +38,7 @@ public class FiveOperation {
 		System.out.println("7 :" + dResultB);
 		System.out.println("8 :" + dc);
 		
-		//Â¦¼ö, È¦¼ö
+		//Â¦ï¿½ï¿½, È¦ï¿½ï¿½
 		int even = 4 % 2;
 		int odd = 5 % 2;
 		

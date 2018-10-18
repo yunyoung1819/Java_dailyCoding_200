@@ -1,27 +1,27 @@
-package coding_1_50;
+package coding_1_20;
 
 /*
- * ╣╔юлем е╦ют (юз╥А е╦ют)
- * ╣╔юлем е╦ют©║╢б ╠Б╨╩ е╦ют╟З бЭа╤ е╦ютюл юж╢ы
- * ╠Б╨╩ е╦ют©║╢б byte, short, char, int, long, float, double, boolean(true, false)╟║ юж╢ы
+ * О©╫О©╫О©╫О©╫О©╫О©╫ е╦О©╫О©╫ (О©╫з╥О©╫ е╦О©╫О©╫)
+ * О©╫О©╫О©╫О©╫О©╫О©╫ е╦О©╫т©О©╫О©╫О©╫ О©╫Б╨╩ е╦О©╫т╟О©╫ О©╫О©╫О©╫О©╫ е╦О©╫О©╫О©╫О©╫ О©╫ж╢О©╫
+ * О©╫Б╨╩ е╦О©╫т©О©╫О©╫О©╫ byte, short, char, int, long, float, double, boolean(true, false)О©╫О©╫ О©╫ж╢О©╫
  */
 public class DataTypes {
 
 	public static void main(String[] args){
 		
-		// ╠Б╨╩ е╦ют
+		// О©╫Б╨╩ е╦О©╫О©╫
 		int primitiveInt = 31;
 		double primitiveLong = 5.1321902;
 		
-		// бЭа╤е╦ют
+		// О©╫О©╫О©╫О©╫е╦О©╫О©╫
 		String refStr = "Global Programmar!";
 		Object refObj = new Object();
 		
-		// ╥╕фш е╛╥║╫╨
+		// О©╫О©╫О©╫О©╫ е╛О©╫О©╫О©╫О©╫
 		Integer intWrap = new Integer(31);
 		Double doubleWrap = new Double(5.1321902);
 		
-		// ╧Х©╜
+		// О©╫Х©╜
 		int[] a= {1,2,3,4,5,6,7};
 		
 		System.out.println("1 :" + primitiveInt);

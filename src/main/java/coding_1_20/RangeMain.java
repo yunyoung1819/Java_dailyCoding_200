@@ -1,16 +1,16 @@
-package coding_1_50;
+package coding_1_20;
 
 public class RangeMain{
 	public static void main(String[] args){
-		{ //½ÃÀÛºí·Ï D
+		{ //ï¿½ï¿½ï¿½Ûºï¿½ï¿½ D
 			int d=10;
-			{ //½ÃÀÛºí·Ï C
+			{ //ï¿½ï¿½ï¿½Ûºï¿½ï¿½ C
 				int c=20;
-				{ //½ÃÀÛºí·Ï B
+				{ //ï¿½ï¿½ï¿½Ûºï¿½ï¿½ B
 					int b=30;
-					{ //½ÃÀÛºí·Ï A
+					{ //ï¿½ï¿½ï¿½Ûºï¿½ï¿½ A
 						int a=40;
-						// a,b,c,d ¸ðµÎ »ç¿ë °¡´É
+						// a,b,c,d ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 						a=200;
 						b=1000;
 						c=2000;
@@ -21,18 +21,18 @@ public class RangeMain{
 					b=200;
 					c=300;
 					d=60;
-					//b, c, d°¡ »ì ¼ö ÀÖ´Ù
+					//b, c, dï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½
 					System.out.println("2 : " +b+" "+c+ " "+d);
 					System.out.printf("2 : %d %d %d\n", b,c,d);
 				} //end B
 				c=300;
 				d=70;
-				//c,d°¡ »ì ¼ö ÀÖ´Ù
+				//c,dï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½
 				System.out.println("3 : "+c+" "+d);
 				System.out.printf("3 : %d %d\n",c,d);
 			}//end C
 			d=80;
-			//d¸¸ »ì ¼ö ÀÖ´Ù
+			//dï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½
 			System.out.println("4 : " + d);
 			System.out.printf("4 : %d\n", d);
 		}//end D

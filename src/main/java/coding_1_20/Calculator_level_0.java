@@ -1,11 +1,11 @@
-package coding_1_50;
+package coding_1_20;
 
 import java.util.Scanner;
 
 /**
  * Calculator_Level_0
  * 
- * Level 0 : ¾ÆÁÖ ±âÃÊÀûÀÎ »çÄ¢ ¿¬»ê JAVA °è»ê±â
+ * Level 0 : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¢ ï¿½ï¿½ï¿½ï¿½ JAVA ï¿½ï¿½ï¿½ï¿½
  * @since : 2017.12.21
  * @author : Yun Young
  * 
@@ -15,13 +15,13 @@ public class Calculator_level_0 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Ã¹¹ø¤Š ¼ýÀÚ ÀÔ·Â : ");
+		System.out.println("Ã¹ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ : ");
 		String input1 = sc.nextLine();
 		
-		System.out.println("+, -, *, / Áß ÇÏ³ª¸¦ ÀÔ·ÂÇÏ½Ê½Ã¿À");
+		System.out.println("+, -, *, / ï¿½ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ê½Ã¿ï¿½");
 		String operator = sc.nextLine();
 		
-		System.out.println("µÎ¹øÂ° ¼ýÀÚ ÀÔ·Â : ");
+		System.out.println("ï¿½Î¹ï¿½Â° ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ : ");
 		String input2 = sc.nextLine();
 		
 		int num1 = Integer.parseInt(input1);
@@ -29,22 +29,22 @@ public class Calculator_level_0 {
 		
 		if(operator.equals("+")){
 			int result = num1 + num2;
-			System.out.println("µÎ ¼öÀÇ µ¡¼À : " + result);
+			System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ : " + result);
 		}
 		
 		else if(operator.equals("-")){
 			int result = num1 - num2;
-			System.out.println("µÎ ¼öÀÇ »¬¼À : " + result);
+			System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ : " + result);
 		}
 		
 		else if(operator.equals("*")){
 			int result = num1 * num2;
-			System.out.println("µÎ ¼öÀÇ °ö¼À : " + result);
+			System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ : " + result);
 		}
 		
 		else if(operator.equals("/")){
 			int result = num1 / num2;
-			System.out.println("µÎ ¼öÀÇ ³ª´°¼À : " + result);
+			System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ : " + result);
 		}
 	}
 }

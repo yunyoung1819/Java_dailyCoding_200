@@ -1,4 +1,4 @@
-package coding_1_50;
+package coding_1_20;
 
 public class Hello {
 	

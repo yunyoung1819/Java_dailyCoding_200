@@ -1,3 +1,4 @@
+package coding_1_20;
 /*package coding_1_50;
 
 import java.awt.Container;
@@ -15,7 +16,7 @@ import javax.swing.JTextField;
 *//**
  * Calculator_Level_0
  * 
- * Level 1 : Java SwingÀ» ÀÌ¿ëÇÑ GUI °è»ê±â
+ * Level 1 : Java Swingï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½ï¿½ GUI ï¿½ï¿½ï¿½ï¿½
  * @since : 2017.12.21
  * @author : Yun Young
  * 
@@ -24,27 +25,27 @@ public class Calculator_level_1{
 	private JFrame frame;
 	private ActionListener btnClickListener;
 	
-	 °á°ú°ª º¯¼ö 
+	 ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 
 	private BigDecimal resultVal;
 	
-	 ÇöÀç ÀÔ·ÂµÈ °ªÀ» ÀúÀåÇØ ³õ´Â º¯¼ö 
+	 ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·Âµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 
 	private BigDecimal inputVal;
 	
-	 ÃÊ±âÈ­ 
+	 ï¿½Ê±ï¿½È­ 
 	private Boolean newVal;
 	
-	 ÇöÀç ¼±ÅÃµÈ ¿¬»ê ¹öÆ° 
+	 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ãµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ° 
 	private JButton operaterBtn;	
 	
-	 0À¸·Î ³ª´©±â Divide Error 
-	private static final String divideErrorText = "0À¸·Î ³ª´­ ¼ö ¾ø½À´Ï´Ù.";
+	 0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Divide Error 
+	private static final String divideErrorText = "0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.";
 	
 	private Font buttonFont;
 	private Container container;
 	private JTextField txt;
 	private JLabel mLabel;
 	
-	 +,-,*,/, = ¹öÆ° 
+	 +,-,*,/, = ï¿½ï¿½Æ° 
 	private JButton plusBtn;
 	private JButton minusBtn;
 	private JButton mulBtn;
@@ -73,7 +74,7 @@ public class Calculator_level_1{
 				JButton b = (JButton) e.getSource();
 				String operNm = b.getText();
 				
-				 switch ¹® 
+				 switch ï¿½ï¿½ 
 				switch(operNm){
 					case "M+":
 						if(txtVal.equals(divideErrorText)){
@@ -117,10 +118,10 @@ public class Calculator_level_1{
 					case "-":
 						inputOperate(b);
 						break;
-					case "¡ç":
+					case "ï¿½ï¿½":
 						inputBackspace();
 						break;
-					case "¡î":
+					case "ï¿½ï¿½":
 						calculateSquareRoot();
 						break;;
 					case "=":
@@ -183,8 +184,8 @@ public class Calculator_level_1{
 		minusBtn = createButton("-", scaleNum * 2 + 12, 80, scaleNum, 43);
 		plusBtn = createButton("+", scaleNum * 3, + 18, 80, scaleNum, 43);
 		enterBtn = createButton("=", scaleNum * 3 + 18, 246, scaleNum, 124);
-		createButton("¡ç", scaleNum * 3 + 18, 123 + 6, scaleNum, 55);
-        createButton("¡î", scaleNum * 3 + 18, 178 + 10, scaleNum, 55);
+		createButton("ï¿½ï¿½", scaleNum * 3 + 18, 123 + 6, scaleNum, 55);
+        createButton("ï¿½ï¿½", scaleNum * 3 + 18, 178 + 10, scaleNum, 55);
         
         frame.pack();
         frame.setSize(2774, 408);
