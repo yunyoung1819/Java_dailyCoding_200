@@ -1,4 +1,4 @@
-package coding_1_20;
+package coding_01_020;
 
 /**
  * 15. 기본 연산을 위한 메서드 (java.lang.Math)

@@ -1,4 +1,4 @@
-package coding_1_20;
+package coding_01_020;
 
 /**
  * 문제 번호 : 017번
